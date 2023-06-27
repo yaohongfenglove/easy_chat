@@ -1,0 +1,21 @@
+{
+  "openai": {
+    "open_ai_proxy": {
+      "api_base": "https://xxx/v1",
+      "api_key": "xxx"
+    },
+    "open_ai_chat_model": "gpt-3.5-turbo",
+    "max_tokens": 4000,
+    "openai_retry": {
+      "min_wait": 3,
+      "max_wait": 5,
+      "max_attempt_number": 3
+    },
+    "open_ai_system_prompt": [
+      {
+        "role": "system",
+        "content": "你是个乐于助人的助手。"
+      }
+    ]
+  }
+}
